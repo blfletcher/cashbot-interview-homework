@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js.map"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="./styling.css">
+
+</head>
+<body>
+    
+<div id="coverup"></div>
+
+<div id="performance">Performance</div>
+
+
+<!-- Plotly chart will be drawn inside this div -->
+<select class="dropdown" id="dd">
+    <option value="Today" selected="selected">Today</option>
+    <option value="This Month">This Month</option>
+    <option value="This Year">This Year</option>
+    <option value="Yesterday">Yesterday</option>
+    <option value="Last Month">Last Month</option>
+</select>
+
+<select class="agents_dropdown" id="agents">
+    <option value="" selected="selected">Agents</option>
+</select>
+
+<button id="export_data">Export Data</button>
+
+
+
+<div class="Row">
+    <div class="Column" id="total_revenue">C1</div>
+    <div class="Column" id="this_day">Today's Revenue</div>
+    <div class="Column" id="this_month">October's Revenue</div>
+    <div class="Column" id="this_year">2018 Revenue</div>
+</div>
+<hr>
+
+
+<div id="chartContainer" style="height: 50%; width: 50%; margin: auto;"></div>
+
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="./data_obj.js"></script>
+<script src="./agent_obj.js"></script>
+
+<script src = "./testing_graph.js"></script>
+<script src="./graph.js"></script>
+
+
+</body>
+</html>

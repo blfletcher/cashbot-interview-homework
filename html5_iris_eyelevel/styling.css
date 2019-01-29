@@ -1,0 +1,161 @@
+#outer {
+    width: 50%;
+    height: 50%;
+
+    font-family: carme, sans-serif;
+    color: #fff;
+    line-height: 1.2;
+    opacity:0;
+    border-style: ridge;
+    border-width: 7px;
+    border-color: #494949;
+    background: white;
+}
+
+.canvasjs-chart-credit {
+	color: white !important;
+}
+
+.body {
+	margin: auto;
+    font-family: Sans-Serif;
+}
+
+.dropdown {
+	margin-left: 20% !important;
+}
+
+#overview {
+    margin-left: 20%;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#performance {
+    margin-left: 20%;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#coverup {
+	width: 80px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 24%;
+    z-index: 1001;
+}
+
+
+#this_day {
+    width: 200px;
+    height: 100px;
+}
+
+#export_data {
+   background: transparent;
+   height: 30px;
+   width: 170px;
+   font-size: 12px;
+   margin-right: 5px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+   border-radius: 5px;
+}
+
+.Row
+{
+    display: table;
+    width: 60%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+    margin: auto;
+}
+.Column
+{
+    height: 100px;
+    z-index: 1000;
+    margin-left: 20%;
+    font-family: sans-serif;
+    background-color: #72e5b1;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    line-height: 25px;
+    color: black;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: table-cell;
+}
+
+#this_day {
+    background: white;
+    border-color: #72e5b1;
+    border-width: medium;
+    background-color: #d9fcec;
+    border-style: solid;
+}
+
+#this_month {
+    background: white;
+    border-color: #72e5b1;
+    border-width: medium;
+    background-color: #d9fcec;
+    border-style: solid;
+}
+
+#this_year {
+    background: white;
+    border-color: #72e5b1;
+    border-width: medium;
+    background-color: #d9fcec;
+    border-style: solid;
+}
+
+.canvasjs-chart-container {
+	z-index: 5 !important;
+}
+
+hr { 
+    display: block;
+    margin-bottom: 2em;
+    width: 60%;
+    align: center;
+    color: gray;
+
+}
+
+/* Dropdown */
+
+
+.dropdown {
+   background: transparent;
+   height: 30px;
+   width: 170px;
+   font-size: 12px;
+   margin-right: 5px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+}
+
+
+.agents_dropdown {
+   background: transparent;
+   height: 30px;
+   width: 170px;
+   font-size: 12px;
+   margin-right: 5px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+}
+
+
+
